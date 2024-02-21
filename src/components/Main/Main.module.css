@@ -1,0 +1,14 @@
+.main {
+  min-width: 320px;
+  min-height: 395px;
+  height: calc(100vh - 40px);
+  background-color: #7df9ff;
+  display: grid;
+  place-items: center;
+}
+
+@media (max-width: 419px) {
+  .main {
+    min-height: 370px;
+  }
+}

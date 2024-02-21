@@ -1,0 +1,24 @@
+.bmiCalculator {
+  box-shadow: var(--box-shadow);
+  border: var(--border);
+  padding: 20px;
+  width: 500px;
+  height: 375px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 519px) {
+  .bmiCalculator {
+    width: 400px;
+  }
+}
+
+@media (max-width: 419px) {
+  .bmiCalculator {
+    width: 300px;
+    height: 350px;
+  }
+}

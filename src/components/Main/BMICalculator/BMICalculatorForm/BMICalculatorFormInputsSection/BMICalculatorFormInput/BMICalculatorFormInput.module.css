@@ -1,0 +1,26 @@
+.inputLabel {
+  height: 65px;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputLabel__label {
+  align-self: flex-start;
+  font-family: "Archivo Black", sans-serif;
+}
+
+.inputLabel__input {
+  box-shadow: var(--box-shadow);
+  outline: none;
+  border: var(--border);
+  padding: 0 10px 0 10px;
+  height: 43px;
+  font-family: "Archivo Black", sans-serif;
+  font-size: 20px;
+}
+
+@media (max-width: 419px) {
+  .inputLabel__input {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,14 @@
+.footer {
+  border-top: var(--border);
+  min-width: 320px;
+  height: 40px;
+  background-color: var(--yellow);
+  display: grid;
+  place-items: center;
+}
+
+@media (max-width: 419px) {
+  .footer__text {
+    font-size: 15px;
+  }
+}

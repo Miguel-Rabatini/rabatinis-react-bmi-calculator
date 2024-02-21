@@ -1,0 +1,19 @@
+.bmiCalculatorResultDisplay {
+  align-self: center;
+  border: var(--border);
+  width: 300px;
+  height: 50px;
+  display: grid;
+  place-items: center;
+  overflow-x: auto;
+  white-space: nowrap;
+  font-size: 25px;
+}
+
+@media (max-width: 419px) {
+  .bmiCalculatorResultDisplay {
+    width: 225px;
+    height: 45px;
+    font-size: 20px;
+  }
+}
