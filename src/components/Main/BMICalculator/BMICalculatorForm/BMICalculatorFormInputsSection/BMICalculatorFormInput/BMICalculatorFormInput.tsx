@@ -37,6 +37,7 @@ const BMICalculatorFormInput: React.FC<IProps> = ({
         placeholder={placeholder}
         step={0.01}
         max={max}
+        inputMode="decimal"
         required
         value={value}
         className={styles.inputLabel__input}
