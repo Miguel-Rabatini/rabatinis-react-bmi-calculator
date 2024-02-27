@@ -25,7 +25,8 @@ const BMICalculatorFormInput: React.FC<IProps> = ({
   const handleChange: React.ChangeEventHandler<HTMLInputElement> = (
     e,
   ): void => {
-    onChange(parseFloat(e.target.value));
+    const inputValue: string = e.target.value;
+    onChange(inputValue && parseFloat(inputValue));
   };
 
   return (
